@@ -2368,7 +2368,7 @@
 #if HAS_DRIVER(TMC26X)
 
   #if AXIS_DRIVER_TYPE_X(TMC26X)
-    #define X_MAX_CURRENT     1000  // (mA)
+    #define X_MAX_CURRENT     650  // (mA)
     #define X_SENSE_RESISTOR    91  // (mOhms)
     #define X_MICROSTEPS        16  // Number of microsteps
   #endif
@@ -2380,7 +2380,7 @@
   #endif
 
   #if AXIS_DRIVER_TYPE_Y(TMC26X)
-    #define Y_MAX_CURRENT     1000
+    #define Y_MAX_CURRENT     650
     #define Y_SENSE_RESISTOR    91
     #define Y_MICROSTEPS        16
   #endif
@@ -2392,7 +2392,7 @@
   #endif
 
   #if AXIS_DRIVER_TYPE_Z(TMC26X)
-    #define Z_MAX_CURRENT     1000
+    #define Z_MAX_CURRENT     600
     #define Z_SENSE_RESISTOR    91
     #define Z_MICROSTEPS        16
   #endif
@@ -2416,7 +2416,7 @@
   #endif
 
   #if AXIS_DRIVER_TYPE_E0(TMC26X)
-    #define E0_MAX_CURRENT    1000
+    #define E0_MAX_CURRENT    600
     #define E0_SENSE_RESISTOR   91
     #define E0_MICROSTEPS       16
   #endif
