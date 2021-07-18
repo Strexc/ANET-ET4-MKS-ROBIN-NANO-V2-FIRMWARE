@@ -1,4 +1,5 @@
-# Mks-Robin-Nano-Marlin2.0-Firmware ANET ET4
+# Mks-Robin-Nano-Marlin2.0-Firmware
+# Marlin for Anet ET4 3D printers
 ## Features
 The firmware of MKS Robin Nano, based on [Marlin2.0.x](https://github.com/MarlinFirmware/Marlin), added the [LittlevGL](https://github.com/littlevgl/lvgl), supporting colourful GUI and touch screen. It is developed on PlatformIO, we hope more and more developers will participate the development of this repository.
 
